@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es-col">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="icon" type="image/x-icon" href="./ASSETS/favicon.ico">
+    <title>ENCRIPTADOR</title>
+</head>
+
+<body>
+
+    <!--Encabezado-->
+    <header>
+        <a href="#" rel="">
+            <img src="./ASSETS/logo.svg" alt="Logo Alura" class="logo">
+        </a>
+    </header>
+
+    <!--Principal-->
+    <main>
+        <section class="encriptador">
+            <textarea class="encriptar" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="encriptador-aviso">
+                <img src="./ASSETS/aviso.svg" alt="Imagen Aviso" class="img-aviso">
+                <p class="texto-aviso">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="encriptador-contenedor">
+                <button type="submit" class="btn-encriptar">¡Encriptar!</button>
+                <button type="submit" class="btn-desencriptar">¡Desencriptar!</button>
+            </div>
+        </section>
+        <section class="tarjeta">
+            <div class="tarjeta-contendor">
+                <img src="./ASSETS/muñeco.svg" alt="Imgen Muñeco" class="img-muñeco">
+                <p class="texto-uno">Ningún Mensaje fue encontrado</p>
+                <p class="texto-dos">Ingrese el texto que deseas encriptar o desencriptar</p>
+            </div>
+            <textarea type="Mensaje" class="evaluar" readonly></textarea>
+            <button type="submit" class="btn-copiar">Copiar</button>
+        </section>
+    </main>
+
+    <!--Pie de pagina-->
+    <footer>
+        <p class="copyrigth">&copy; copyrigth 2024 - Encriptador de Texto - Desarrollado por DaniFe-Developer</p>
+        <a href="https://www.linkedin.com/in/daniel-fernando-pinto-sabogal-5258a7240/" target="_blank" rel="">
+            <img src="./ASSETS/linkedin.svg" alt="Logo linkedin" class="linked">
+        </a>
+        <a href="https://github.com/DaniFe-Developer" target="_blank" rel="">
+            <img src="./ASSETS/github.svg" alt="Logo Github" class="Github">
+        </a>
+    </footer>
+
+</body>
+<script src="./JS/script.js"></script>
+
+</html>
